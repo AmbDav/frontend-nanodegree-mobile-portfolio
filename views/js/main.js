@@ -451,7 +451,7 @@ var resizePizzas = function(size) {
   window.performance.measure("measure_pizza_resize", "mark_start_resize", "mark_end_resize");
   var timeToResize = window.performance.getEntriesByName("measure_pizza_resize");
   console.log("Time to resize pizzas: " + timeToResize[0].duration + "ms");
-}
+};
 
 window.performance.mark("mark_start_generating"); // collect timing data
 
@@ -504,7 +504,7 @@ function updatePositions() {
 
 //Adding in animation. Seems to be running better.
 var stillScrolling = false;
-var lastKnownY = 0
+var lastKnownY = 0;
 function animate() {
   if (!stillScrolling) {
     lastKnownY = window.scrollY;
