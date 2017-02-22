@@ -53,3 +53,18 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+##Changes Made
+
+###Portfolio Page
+1. Inline all CSS
+2. Make JS async and move it to the last thing rendered.
+3. Remove Google Font as it looked to be an unnecessary drain on resources. 
+
+###Pizza Page
+1. Tweaks to Size Slider
+2. Addition of randomPizzaContainers variable
+3. Addition of requestAnimation Frame for background
+4. Alteration of the math section as research indicated that scrollTop leads to bottleneck
+5. Reduction of pizzas
+6. Addition of transform : translateX CSS 
