@@ -493,10 +493,13 @@ function updatePositions() {
   //var scrolling = window.scrollTop;
   frame++;
   window.performance.mark("mark_start_frame");
-
+  var phase = [];
+  for (var i = 0; i < 5; i++) {
+    phase.push(Math.sin(lastKnownY / 1250 + i) * 100);
+  }
   
   for (var i = 0; i < window.pizzaItems.length; i++) {
-    var phased = (100 * Math.sin(scrolling + (i % 5)));
+    var phased = (100 * Math.sin(scrolling + phase[(i % 5)]));
     window.pizzaItems[i].style.transform = "translateX(" + phased + "px)";
   }
   stillScrolling = false;

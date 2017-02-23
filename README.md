@@ -56,6 +56,9 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 ##Changes Made
 
+###Loading the Page
+In order to open th epage simply double click on index.html. Click through the links.
+
 ###Portfolio Page
 1. Inline all CSS
 2. Make JS async and move it to the last thing rendered.
