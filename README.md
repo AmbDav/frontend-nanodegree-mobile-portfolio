@@ -57,7 +57,9 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 ##Changes Made
 
 ###Loading the Page
-In order to open th epage simply double click on index.html. Click through the links.
+Run Grunt
+
+In order to open the page simply double click on index.html. Click through the links.
 
 ###Portfolio Page
 1. Inline all CSS

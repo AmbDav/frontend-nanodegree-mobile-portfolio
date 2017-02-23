@@ -499,7 +499,7 @@ function updatePositions() {
   }
   
   for (var i = 0; i < window.pizzaItems.length; i++) {
-    var phased = (100 * Math.sin(scrolling + phase[(i % 5)]));
+    var phased = phase[(i % 5)];
     window.pizzaItems[i].style.transform = "translateX(" + phased + "px)";
   }
   stillScrolling = false;
